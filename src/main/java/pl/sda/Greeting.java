@@ -13,4 +13,11 @@ public class Greeting {
 	@Id
 	@GeneratedValue
 	private long id;
+
+	public Greeting() {
+	}
+
+	public Greeting(String s) {
+		msg = s;
+	}
 }
